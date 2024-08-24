@@ -1,0 +1,13 @@
+name: medical_insurance_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - jupyterlab
